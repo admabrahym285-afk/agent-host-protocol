@@ -1,5 +1,5 @@
 # Customizations
-
+aghh
 Customizations extend agent sessions with additional capabilities — agents, skills, prompts, rules, hooks, and MCP servers. AHP organises them as a discriminated union with a fixed set of types and a shallow tree:
 
 - **Top-level entries are typically containers**: a `PluginCustomization` (an [Open Plugins](https://open-plugins.com/) package) or a `DirectoryCustomization` (a directory the host watches on disk). The host MAY also surface a bare `McpServerCustomization` at the top level (for example, a globally-configured MCP server that isn't bundled in a plugin).
